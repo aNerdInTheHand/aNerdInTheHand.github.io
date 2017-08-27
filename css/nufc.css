@@ -1,3 +1,8 @@
+/*
+**
+*** index.html
+**
+*/
 .nufcMain {
   background-image: repeating-linear-gradient(
     90deg,
@@ -6,13 +11,35 @@
     #303032 50px,
     #303032 100px
   );
-  min-height: 300px;
+  margin-bottom: 10px;
+  min-height: 200px;
 }
 
-@media screen and (min-width: 720px) {
-.stat-card {
-  margin: auto;
-  width: 75%;
+/*
+**
+*** MEDIA
+**
+*/
+.nufcComShout {
+  background-color: #add1c7;
+  border-radius: 5px;
+  margin: 5px 10px;
+  padding: 10px;
+}
+
+/*
+**
+*** team-h/a.html
+**
+*/
+.match-report, .match-reports {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #1d1d1d,
+    #1d1d1d 50px,
+    #303032 50px,
+    #303032 100px
+  );
 }
 
 .match-summary {
@@ -32,9 +59,42 @@
 }
 
 .report-link-w {
-  border-left: 7px solid #00ff00 !important;
+  border-left: 7px solid #44c424 !important;
 }
 
 .report-link-d {
-  border-left: 7px solid #c0c0c0 !important;
+  border-left: 7px solid #5a5a5a !important;
+}
+
+.player-highlight {
+  font-weight: 600;
+}
+
+.TRANSFERWINDOWDAY {
+  background-color: #eece21;
+  border: 1px solid #3b3b3b;
+  border-radius: 3px;
+  color: #3b3b3b;
+  font-size: 2em;
+  padding: 3px;
+}
+/*
+**
+*** MEDIA
+**
+*/
+@media screen and (min-width: 720px) {
+  .stat-card {
+    margin: auto;
+    width: 75%;
+  }
+
+  .nufcMain {
+    margin-bottom: 0px;
+  }
+
+  .match-reports {
+    margin: auto;
+    width: 75%;
+  }
 }

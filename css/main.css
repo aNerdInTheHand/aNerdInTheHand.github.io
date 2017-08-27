@@ -4,16 +4,39 @@
   color: #C6C6C6;
 }
 
+#siteHeader {
+  font-size: 18pt;
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 50%;
+}
+
+.homeCards {
+  text-align: center;
+}
+
+.card-text {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.btn-wide {
+  left: 25%;
+  margin: auto;
+  position:absolute;
+  width: 50%;
+}
+
+.reports-nav {
+  font-weight: 800;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
 @media screen and (min-width: 720px) {
   #accordion {
     margin: auto;
     width: 75%;
   }
-}
-
-#siteHeader {
-  margin: auto;
-  margin-bottom: 15px;
-  text-align: center;
-  width: 50%;
 }
