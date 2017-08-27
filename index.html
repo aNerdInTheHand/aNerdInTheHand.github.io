@@ -12,7 +12,10 @@
     <link href="css/nufc.css" rel="stylesheet">
   </head>
   <body class="page">
-  <h1>aNerdInTheHand</h1>
+  <h1 id="siteHeader">aNerdInTheHand</h1>
+
+
+  <!-- START MAIN SITE ACCORDION -->
   <div id="accordion" role="tablist" aria-multiselectable="true">
     <div class="card">
       <div class="card-header" role="tab" id="headingOne">
@@ -25,11 +28,35 @@
 
       <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
         <div class="card-block">
-          Match Reports
-          Other Guff
+
+          <!-- START NUFC CARDS -->
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card nufcMain">
+                <div class="card-block">
+                  <h3 class="card-title">Match reports</h3>
+                  <p class="card-text">Totally unofficial and probably incoherent thoughts on all NUFC matches.</p>
+                  <a href="nufc/1718/matchreports.html" class="btn btn-primary">Match Reports</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card nufcMain">
+                <div class="card-block">
+                  <h3 class="card-title">Rumours, lies and slander</h3>
+                  <p class="card-text">Any other NUFC related drivel I feel is worthy of spouting.</p>
+                  <a href="#" class="btn btn-primary">Rumour Mill</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END NUFC CARDS -->
+
         </div>
       </div>
     </div>
+
+    <!-- START MUSIC CARD -->
     <div class="card">
       <div class="card-header" role="tab" id="headingTwo">
         <h5 class="mb-0">
@@ -44,6 +71,9 @@
         </div>
       </div>
     </div>
+    <!-- END MUSIC CARD -->
+
+    <!-- START BOOK CARD -->
     <div class="card">
       <div class="card-header" role="tab" id="headingThree">
         <h5 class="mb-0">
@@ -58,6 +88,9 @@
         </div>
       </div>
     </div>
+    <!-- END BOOK CARD -->
+
+    <!-- START ABOUT CARD -->
     <div class="card">
       <div class="card-header" role="tab" id="headingFour">
         <h5 class="mb-0">
@@ -72,7 +105,9 @@
         </div>
       </div>
     </div>
+    <!-- END ABOUT CARD -->
   </div>
+  <!-- END MAIN ACCORDION -->
 
   <hr>
 
