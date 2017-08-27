@@ -32,6 +32,16 @@
 *** team-h/a.html
 **
 */
+.match-report, .match-reports {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #1d1d1d,
+    #1d1d1d 50px,
+    #303032 50px,
+    #303032 100px
+  );
+}
+
 .match-summary {
   font-style: italic;
 }
@@ -85,6 +95,6 @@
 
   .match-reports {
     margin: auto;
-    width: 50%;
+    width: 75%;
   }
 }
