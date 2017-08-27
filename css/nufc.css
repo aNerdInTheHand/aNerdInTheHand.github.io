@@ -1,0 +1,32 @@
+.nufcMain {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #1d1d1d,
+    #1d1d1d 50px,
+    #303032 50px,
+    #303032 100px
+  );
+  min-height: 300px;
+}
+
+@media screen and (min-width: 720px) {
+.stat-card {
+  margin: auto;
+  width: 75%;
+}
+
+.sub-rating {
+  background-color: #676767 !important;
+}
+
+.report-link-l {
+  border-left: 7px solid #ff0000 !important;
+}
+
+.report-link-w {
+  border-left: 7px solid #00ff00 !important;
+}
+
+.report-link-d {
+  border-left: 7px solid #c0c0c0 !important;
+}

@@ -4,7 +4,16 @@
   color: #C6C6C6;
 }
 
-.progression {
-  background-color: #C6C6C6;
-  color: #42474F;
+@media screen and (min-width: 720px) {
+  #accordion {
+    margin: auto;
+    width: 75%;
+  }
+}
+
+#siteHeader {
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 50%;
 }
