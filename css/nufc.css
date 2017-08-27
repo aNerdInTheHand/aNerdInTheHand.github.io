@@ -9,6 +9,16 @@
   min-height: 300px;
 }
 
+@media screen and (min-width: 720px) {
+.stat-card {
+  margin: auto;
+  width: 75%;
+}
+
+.sub-rating {
+  background-color: #676767 !important;
+}
+
 .report-link-l {
   border-left: 7px solid #ff0000 !important;
 }
