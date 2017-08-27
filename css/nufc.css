@@ -15,7 +15,15 @@
   width: 75%;
 }
 
-.sub-rating {
+.match-summary {
+  font-style: italic;
+}
+
+.rating-red {
+  border-left: 10px solid #ff0000 !important;
+}
+
+.rating-sub {
   background-color: #676767 !important;
 }
 
